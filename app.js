@@ -31,7 +31,13 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(cors());
+
+// Allow CORS only from Netlify frontend
+app.use(cors({
+  origin: ['https://health-fsd.netlify.app'],
+  credentials: true
+}));
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
