@@ -1,0 +1,5 @@
+[
+  {"_id": "661f1a1a1a1a1a1a1a1a1a1a", "name": "John Doe", "email": "john@example.com", "role": "patient"},
+  {"_id": "661f1a1a1a1a1a1a1a1a1a1b", "name": "Jane Smith", "email": "jane@example.com", "role": "doctor"},
+  {"_id": "661f1a1a1a1a1a1a1a1a1a1c", "name": "Alice Brown", "email": "alice@example.com", "role": "patient"}
+]

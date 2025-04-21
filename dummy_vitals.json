@@ -1,0 +1,15 @@
+[
+  {"_id": "661f1d4d4d4d4d4d4d4d4d4a", "patient": "661f1a1a1a1a1a1a1a1a1a1a", "type": "bp", "value": "120/80", "date": "2025-04-19T07:00:00Z"},
+  {"_id": "661f1d4d4d4d4d4d4d4d4d4b", "patient": "661f1a1a1a1a1a1a1a1a1a1a", "type": "hr", "value": "72", "date": "2025-04-19T07:00:00Z"},
+  {"_id": "661f1d4d4d4d4d4d4d4d4d4c", "patient": "661f1a1a1a1a1a1a1a1a1a1c", "type": "glucose", "value": "95", "date": "2025-04-18T07:00:00Z"},
+  {"_id": "6803d3d3d3d3d3d3d3d3d3d3", "patient": "6803aecdc51d1576c02b6539", "type": "bp", "value": "118/78", "date": "2025-04-10T07:00:00Z"},
+  {"_id": "6803d3d3d3d3d3d3d3d3d3d4", "patient": "6803aecdc51d1576c02b6539", "type": "bp", "value": "120/80", "date": "2025-04-12T07:00:00Z"},
+  {"_id": "6803d3d3d3d3d3d3d3d3d3d5", "patient": "6803aecdc51d1576c02b6539", "type": "bp", "value": "122/82", "date": "2025-04-14T07:00:00Z"},
+  {"_id": "6803d3d3d3d3d3d3d3d3d3d6", "patient": "6803aecdc51d1576c02b6539", "type": "bp", "value": "119/79", "date": "2025-04-16T07:00:00Z"},
+  {"_id": "6803d3d3d3d3d3d3d3d3d7", "patient": "6803aecdc51d1576c02b6539", "type": "hr", "value": "70", "date": "2025-04-10T07:00:00Z"},
+  {"_id": "6803d3d3d3d3d3d3d3d3d8", "patient": "6803aecdc51d1576c02b6539", "type": "hr", "value": "72", "date": "2025-04-12T07:00:00Z"},
+  {"_id": "6803d3d3d3d3d3d3d3d3d9", "patient": "6803aecdc51d1576c02b6539", "type": "hr", "value": "68", "date": "2025-04-14T07:00:00Z"},
+  {"_id": "6803d3d3d3d3d3d3d3da", "patient": "6803aecdc51d1576c02b6539", "type": "glucose", "value": "95", "date": "2025-04-10T07:00:00Z"},
+  {"_id": "6803d3d3d3d3d3d3d3db", "patient": "6803aecdc51d1576c02b6539", "type": "glucose", "value": "98", "date": "2025-04-12T07:00:00Z"},
+  {"_id": "6803d3d3d3d3d3d3d3dc", "patient": "6803aecdc51d1576c02b6539", "type": "glucose", "value": "92", "date": "2025-04-14T07:00:00Z"}
+]
