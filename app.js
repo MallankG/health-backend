@@ -9,7 +9,7 @@ const http = require('http');
 const { Server } = require('socket.io');
 
 // MongoDB connection
-mongoose.connect(process.env.MONGO_URI || 'mongodb://localhost:27017/doctor', {
+mongoose.connect(process.env.MONGO_URI || 'mongodb://localhost:27017/doctormongodb+srv://mallankgogri1:mallankgogri1@cluster0.ojnt6ca.mongodb.net/?appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
