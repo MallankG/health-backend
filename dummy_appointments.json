@@ -1,9 +1,0 @@
-[
-  {"_id": "661f1c3c3c3c3c3c3c3c3c3a", "patient": "661f1a1a1a1a1a1a1a1a1a1a", "doctor": "661f1a1a1a1a1a1a1a1a1a1b", "date": "2025-04-21T14:00:00Z", "status": "booked", "purpose": "Routine Checkup", "createdAt": "2025-04-19T08:00:00Z"},
-  {"_id": "661f1c3c3c3c3c3c3c3c3c3b", "patient": "661f1a1a1a1a1a1a1a1a1a1c", "doctor": "661f1a1a1a1a1a1a1a1a1a1b", "date": "2025-04-22T10:00:00Z", "status": "booked", "purpose": "Consultation", "createdAt": "2025-04-19T09:00:00Z"},
-  {"_id": "6803c2c2c2c2c2c2c2c2c2c2", "patient": "6803aecdc51d1576c02b6539", "doctor": "661f1a1a1a1a1a1a1a1a1a1b", "date": "2025-04-15T10:00:00Z", "status": "completed", "purpose": "Consultation", "createdAt": "2025-04-10T08:00:00Z"},
-  {"_id": "6803c2c2c2c2c2c2c2c2c2c3", "patient": "6803aecdc51d1576c02b6539", "doctor": "661f1a1a1a1a1a1a1a1a1a1b", "date": "2025-04-18T10:00:00Z", "status": "booked", "purpose": "Routine Checkup", "createdAt": "2025-04-12T08:00:00Z"},
-  {"_id": "app1", "patient": "6806013ea2417e28cfc72b00", "doctor": "661f1a1a1a1a1a1a1a1a1a1b", "date": "2025-04-15T10:00:00Z", "status": "booked", "purpose": "Routine Checkup", "createdAt": "2025-04-10T08:00:00Z"},
-  {"_id": "app2", "patient": "6806013ea2417e28cfc72b00", "doctor": "661f1a1a1a1a1a1a1a1a1a1b", "date": "2025-04-18T10:00:00Z", "status": "completed", "purpose": "Consultation", "createdAt": "2025-04-12T08:00:00Z"},
-  {"_id": "app3", "patient": "6806013ea2417e28cfc72b00", "doctor": "661f1a1a1a1a1a1a1a1a1a1b", "date": "2025-04-20T14:00:00Z", "status": "booked", "purpose": "Follow-up", "createdAt": "2025-04-19T08:00:00Z"}
-]
