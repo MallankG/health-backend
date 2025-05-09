@@ -10,7 +10,8 @@ exports.bookAppointment = async (req, res) => {
       patient,
       doctor,
       date,
-      purpose
+      purpose,
+      status: 'requested'
     });
     await appointment.save();
     res.status(201).json(appointment);
@@ -82,6 +83,23 @@ exports.cancelAppointment = async (req, res) => {
     const appointment = await Appointment.findByIdAndUpdate(id, { status: 'cancelled' }, { new: true });
     if (!appointment) return res.status(404).json({ message: 'Appointment not found' });
     res.json({ message: 'Appointment cancelled', appointment });
+  } catch (err) {
+    res.status(500).json({ message: 'Server error', error: err.message });
+  }
+};
+
+// Accept an appointment (doctor action)
+exports.acceptAppointment = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const appointment = await Appointment.findByIdAndUpdate(
+      id,
+      { status: 'booked' },
+      { new: true }
+    );
+    if (!appointment) return res.status(404).json({ message: 'Appointment not found' });
+    // TODO: Send notification to patient here
+    res.json({ message: 'Appointment accepted', appointment });
   } catch (err) {
     res.status(500).json({ message: 'Server error', error: err.message });
   }

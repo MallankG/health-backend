@@ -5,5 +5,6 @@ const appointmentsController = require('../controllers/appointmentsController');
 router.post('/book', appointmentsController.bookAppointment);
 router.get('/', appointmentsController.getAppointments);
 router.patch('/:id/cancel', appointmentsController.cancelAppointment);
+router.patch('/:id/accept', appointmentsController.acceptAppointment);
 
 module.exports = router;
