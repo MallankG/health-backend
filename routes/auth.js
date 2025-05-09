@@ -15,4 +15,7 @@ router.post('/forgot-password', authController.forgotPassword);
 // Reset password
 router.post('/reset-password', authController.resetPassword);
 
+// Direct password reset (no token, just email and new password)
+router.post('/reset-password-direct', authController.resetPasswordDirect);
+
 module.exports = router;
