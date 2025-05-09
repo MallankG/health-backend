@@ -9,7 +9,7 @@ const http = require('http');
 const { Server } = require('socket.io');
 
 // MongoDB connection
-mongoose.connect(process.env.MONGO_URI || 'mongodb+srv://mallankgogri1:malu7867@cluster0.txwjra6.mongodb.net/', {
+mongoose.connect(process.env.MONGO_URI || '+srv://mallankgogri1:mmongodbalu7867@cluster0.txwjra6.mongodb.net/', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
@@ -32,9 +32,12 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-// Allow CORS only from Netlify frontend
+// Allow CORS from Netlify frontend and local frontend for development
 app.use(cors({
-  origin: ['https://health-fsd.netlify.app'],
+  origin: [
+    'https://health-fsd.netlify.app',
+    'http://localhost:5173'
+  ],
   credentials: true
 }));
 

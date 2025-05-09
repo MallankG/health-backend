@@ -10,6 +10,8 @@ const UserSchema = new mongoose.Schema({
   verified: { type: Boolean, default: false },
   createdAt: { type: Date, default: Date.now },
   // Add more fields as needed (phone, profile, etc.)
+  resetPasswordToken: { type: String },
+  resetPasswordExpires: { type: Date },
 });
 
 // Hash password before saving

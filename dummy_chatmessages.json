@@ -1,5 +1,30 @@
 [
-  {"_id": "6803f5f5f5f5f5f5f5f5f5f5", "sender": "6803aecdc51d1576c02b6539", "receiver": "661f1a1a1a1a1a1a1a1a1a1b", "message": "Hi Doctor, this is Mallank.", "sentAt": "2025-04-20T10:00:00Z"},
-  {"_id": "6803f5f5f5f5f5f5f5f5f5f6", "sender": "6803aecdc51d1576c02b6539", "receiver": "661f1a1a1a1a1a1a1a1a1a1b", "message": "How are you, Doctor?", "sentAt": "2025-04-12T10:00:00Z"},
-  {"_id": "6803f5f5f5f5f5f5f5f5f5f7", "sender": "661f1a1a1a1a1a1a1a1a1a1b", "receiver": "6803aecdc51d1576c02b6539", "message": "I'm good, Mallank. How can I help?", "sentAt": "2025-04-12T10:01:00Z"}
+  {
+    "_id": "c1",
+    "sender": "6806013ea2417e28cfc72b00",
+    "receiver": "661f1a1a1a1a1a1a1a1a1a1b",
+    "message": "Hi Doctor, this is Mallank.",
+    "sentAt": "2025-04-20T10:00:00Z"
+  },
+  {
+    "_id": "c2",
+    "sender": "661f1a1a1a1a1a1a1a1a1a1b",
+    "receiver": "6806013ea2417e28cfc72b00",
+    "message": "Hello Mallank, how can I help you?",
+    "sentAt": "2025-04-20T10:01:00Z"
+  },
+  {
+    "_id": "c3",
+    "sender": "6806013ea2417e28cfc72b00",
+    "receiver": "661f1a1a1a1a1a1a1a1a1a1b",
+    "message": "I have a question about my prescription.",
+    "sentAt": "2025-04-20T10:02:00Z"
+  },
+  {
+    "_id": "c4",
+    "sender": "661f1a1a1a1a1a1a1a1a1a1b",
+    "receiver": "6806013ea2417e28cfc72b00",
+    "message": "Sure, please go ahead.",
+    "sentAt": "2025-04-20T10:03:00Z"
+  }
 ]

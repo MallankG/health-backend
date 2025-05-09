@@ -3,5 +3,11 @@
   {"_id": "6803e4e4e4e4e4e4e4e4e4e5", "patient": "6803aecdc51d1576c02b6539", "type": "sleep", "value": "7.5 hours", "date": "2025-04-12T23:00:00Z"},
   {"_id": "6803e4e4e4e4e4e4e4e4e4e6", "patient": "6803aecdc51d1576c02b6539", "type": "sleep", "value": "8 hours", "date": "2025-04-14T23:00:00Z"},
   {"_id": "6803e4e4e4e4e4e4e4e4e4e7", "patient": "6803aecdc51d1576c02b6539", "type": "exercise", "value": "Running", "date": "2025-04-10T18:00:00Z"},
-  {"_id": "6803e4e4e4e4e4e4e4e4e4e8", "patient": "6803aecdc51d1576c02b6539", "type": "exercise", "value": "Cycling", "date": "2025-04-12T18:00:00Z"}
+  {"_id": "6803e4e4e4e4e4e4e4e4e4e8", "patient": "6803aecdc51d1576c02b6539", "type": "exercise", "value": "Cycling", "date": "2025-04-12T18:00:00Z"},
+  { "_id": "h1", "patient": "6806013ea2417e28cfc72b00", "type": "sleep", "value": "7 hours", "date": "2025-04-10T23:00:00Z" },
+  { "_id": "h2", "patient": "6806013ea2417e28cfc72b00", "type": "sleep", "value": "8 hours", "date": "2025-04-12T23:00:00Z" },
+  { "_id": "h3", "patient": "6806013ea2417e28cfc72b00", "type": "sleep", "value": "6.5 hours", "date": "2025-04-14T23:00:00Z" },
+  { "_id": "h4", "patient": "6806013ea2417e28cfc72b00", "type": "exercise", "value": "Running", "date": "2025-04-10T18:00:00Z" },
+  { "_id": "h5", "patient": "6806013ea2417e28cfc72b00", "type": "exercise", "value": "Cycling", "date": "2025-04-12T18:00:00Z" },
+  { "_id": "h6", "patient": "6806013ea2417e28cfc72b00", "type": "exercise", "value": "Yoga", "date": "2025-04-14T18:00:00Z" }
 ]
